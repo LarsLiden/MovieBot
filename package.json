@@ -9,7 +9,7 @@
     "lint": "tslint -t codeFrame 'src/**/*.ts' 'test/**/*.ts'",
     "nodemon": "nodemon",
     "prestart": "npm run build",
-    "start": "node ./lib/server.js",
+    "start": "node ./lib/YCmoviebot.js",
     "startnobuild": "node ./lib/server.js",
     "jest": "jest",
     "pretest": "npm run build",
